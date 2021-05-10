@@ -5,7 +5,7 @@ const CustomDrink = () => {
     const [customDrinks, setcustomDrinks] = useState<any[]>([]);
 
     useEffect(() => {
-        let drinks = localStorage.getItem("custom_drinks") || ""
+        let drinks = localStorage.getItem("custom_drinks") || JSON.stringify([])
         let json_data = JSON.parse(drinks);
         let drink_arr = []
         for (let json of json_data){
