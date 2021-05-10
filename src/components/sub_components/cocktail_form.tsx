@@ -27,7 +27,7 @@ const CocktailForm = (props: any) => {
         } else {
             all_drinks = JSON.parse(items)
         }
-        all_drinks.push(JSON.stringify(data))
+        all_drinks.push(data)
         localStorage.setItem("custom_drinks", JSON.stringify(all_drinks))
     }
 
