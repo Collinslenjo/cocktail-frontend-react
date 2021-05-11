@@ -40,7 +40,7 @@ const CocktailForm = (props: any) => {
                 aria-labelledby="example-modal-sizes-title-lg">
                 <Modal.Header closeButton>
                     <Modal.Title id="example-modal-sizes-title-lg">
-                        Create A New Jackpot
+                        Create A New Cocktail
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
